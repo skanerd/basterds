@@ -1,0 +1,196 @@
+/*  */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* header */
+.header {
+    width: 1500px;
+    padding-left: 75px;
+    overflow: hidden;
+    position: fixed; 
+}
+.header a {
+    float: left;
+    color: orange;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header a:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+
+/* body */
+.total-body {
+    margin: auto;
+    margin-bottom: 200px;
+    width: 1500px;
+    color: white;
+    background-color: black;
+}
+
+
+
+/* movie */
+.movie-info {
+    margin-bottom: 100px;
+}
+.movie-info-txt {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.movie-info-img {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.movie-info-img img {
+    margin: auto;
+    width: 90%;
+}
+.movie-story {
+    flex-direction: column;
+    margin: auto;
+    width: 1280px;
+}
+.movie-story-txt {
+    margin: auto;
+    padding: 40px;
+    height: 600px;
+    width: 90%;
+    font-size: 24px;
+    line-height: 2;
+}
+.movie-story-img {
+    width: 100%;
+    color: orange;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.movie-story-img img {
+    height: 320px;
+    width: 320px;
+}
+
+
+
+/* character */
+.character {
+    margin-top: 300px;
+}
+.title {
+    color: orange;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.character-character {
+    margin-bottom: 150px;
+}
+.character-first-info {
+    display: flex;
+    justify-content: space-around;
+}
+.character-info-txt {
+    width: 40%;
+}
+.name-jpn {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.name-eng {
+    text-align: center;
+    font-size: 62px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.best-quotes {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.character-info-img img {
+    height: 100%;
+    width: 600px
+}
+.character-second-info {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 2;
+}
+
+
+
+/* how-to-enjoy */
+.how-to-enjoy {
+    margin: auto;
+    margin-top: 400px;
+    width: 1280px;
+}
+.how-to-enjoy-txt{
+    margin-bottom: 200px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.enjoy-info {
+    margin: auto;
+}
+.enjoy-info img {
+    width: 100%;
+}
+.enjoy-info a img{
+    transition: all 0.2s linear;
+}
+.enjoy-info a:hover img{
+    transform: scale(1.05);
+}
+.enjoy-txt {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+/* final */
+.final {
+    margin-top: 200px;
+    text-align: center;
+}
+.final a img{
+    width: 40%;
+    transition: all 0.2s linear;
+}
+.final a:hover img{
+    transform: scale(1.05);
+}
+
+
+
+/* footer */
+.copyright {
+    position: fixed;
+    width: 100%; 
+    right: -20px;
+    bottom: 20px;
+    font-size: 16px;
+    color: bisque;
+}
